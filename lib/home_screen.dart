@@ -10,6 +10,11 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.red,
         title: Text("HomeScreen"),
       ),
+      body: Column(
+        children: [
+          Text('Home Scren'),
+        ],
+      ),
     );
   }
 }
